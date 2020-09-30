@@ -5,10 +5,28 @@
  */
 package Factory;
 
+import Observer.*;
+import State.*;
+import Strategy.*;
+
+
 /**
  *
  * @author joao
  */
-public class granja {
+public class Granja {
+    MododaAlimentacao modo;
+    EstadoCrescimento estadoC;
+    Termometro termometro;
+    
+    public void mudarTemperatura(float temp){
+        termometro.setTemperatura(temp);
+    }
+    
+    
+    
+    
+    
+    
     
 }

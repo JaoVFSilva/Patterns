@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package State;
 
 /**
  *
  * @author joao
  */
-public class PatternsProject {
+public class Lentoquente implements EstadoCrescimento{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-            Granja g = new Granja();
-            g.mudarTemperatura(27);
+    @Override
+    public void crescimento() {
+        System.out.println("O crescimento está prejudiccado pois o clima está quente");
     }
     
 }
