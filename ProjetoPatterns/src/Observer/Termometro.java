@@ -14,8 +14,8 @@ import java.util.List;
  */
 public class Termometro {
    
-    private float temperatura;
-    private float temperaturaAnterior;
+    private float temperatura = 0;
+    private float temperaturaAnterior = 0;
 
     public float getTemperaturaAnterior() {
         return temperaturaAnterior;

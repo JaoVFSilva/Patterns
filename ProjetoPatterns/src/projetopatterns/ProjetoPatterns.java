@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
-
+package projetopatterns;
+import Factory.*;
 /**
  *
  * @author joao
  */
-public class PatternsProject {
+public class ProjetoPatterns {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            Granja g = new Granja();
-            g.mudarTemperatura(27);
+        // TODO code application logic here
+        Granja g = new Granja();
+        g.mudarTemperatura(20);
+        g.veraTemperatura();
     }
     
 }

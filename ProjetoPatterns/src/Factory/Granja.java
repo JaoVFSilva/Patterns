@@ -17,10 +17,16 @@ import Strategy.*;
 public class Granja {
     MododaAlimentacao modo;
     EstadoCrescimento estadoC;
-    Termometro termometro;
     
-    public void mudarTemperatura(float temp){
-        termometro.setTemperatura(temp);
+    Termometro t = new Termometro();
+
+    
+    public void mudarTemperatura(float temperatura){
+        t.setTemperatura(temperatura);
+    }
+    
+    public void veraTemperatura(){
+        t.getTemperatura();
     }
     
     
