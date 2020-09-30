@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package State;
+package Strategy;
 
 /**
  *
  * @author joao
  */
-public class Lento {
+public interface MododaAlimentacao {
+    
+    public abstract void ModoAlimentação();
     
 }

@@ -13,8 +13,7 @@ import java.util.List;
  * @author joao
  */
 public class Termometro {
-    
-    private List<Observador> listaDeObservadores = new ArrayList<>();
+   
     private float temperatura;
     private float temperaturaAnterior;
 
@@ -24,6 +23,7 @@ public class Termometro {
 
     public void setTemperaturaAnterior(float temperaturaAnterior) {
         this.temperaturaAnterior = temperaturaAnterior;
+        
     }
 
     

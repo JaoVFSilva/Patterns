@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package State;
+package Factory;
 
 /**
  *
  * @author joao
  */
-public class Estado {
+public class granja {
     
 }

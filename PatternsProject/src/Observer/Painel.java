@@ -5,6 +5,7 @@
  */
 package Observer;
 
+
 /**
  *
  * @author joao
@@ -15,9 +16,11 @@ public class Painel implements Observador{
         
         System.out.println("Notif painel");
         if (termometro.getTemperatura() > 25) {
-            System.out.println("QUENTE!!!, passou de "+termometro.getTemperaturaAnterior()+" para "+termometro.getTemperatura());
-        } else {
-            System.out.println("Fiz nada...");
+            System.out.println("A temperatura foi de "+termometro.getTemperaturaAnterior()+" para "+termometro.getTemperatura()+"Inicie o resfriamento urgentemente");
+        } else if(termometro.getTemperatura() < 17){
+            System.out.println("A temperatura foi de "+termometro.getTemperaturaAnterior()+" para "+termometro.getTemperatura()+"Inicie o aquecimento urgente");
+        }else{
+            System.out.println("Nada ocorreu");
         }
     }
 }
