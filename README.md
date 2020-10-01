@@ -14,10 +14,13 @@ Organizei o projeto com base na granja e criação de abate dos frangos.
 
 ## O que cada pattern faz?
 
-* Factory:Usei a factory para facilitar as instanciações dos metodos para a main.
-* State: Usei o state para ilustrar o estado de crescimento do frango.
-* Strategy: Usei o Strategy para fazer a ação de Alimentar, mostrando o que cada fase do frango precisa e como realizar. 
-* Observer: Usei para observar a temperatura da granja. Assim avisando se a temperatura estiver fora do ideal para os frangos.
+* Factory:Usei a factory para facilitar as instanciações dos metodos para a main. 
+
+* State: Usei o state para ilustrar o estado de crescimento do frango. o ultilizei pois "O padrão State sugere que você crie novas classes para todos os estados possíveis de um objeto e extraia todos os comportamentos específicos de estados para dentro dessas classes." assim se tornou mais facil a ultilizar na main
+
+* Strategy: Usei o Strategy para fazer a ação de Alimentar, mostrando o que cada fase do frango precisa e como realizar. o ultilizei pois "O padrão Strategy sugere que você pegue uma classe que faz algo específico em diversas maneiras diferentes e extraia todos esses algoritmos para classes separadas chamadas estratégias." assim ficou mais facil usar e entender o que cada classe faz
+
+* Observer: Usei para observar a temperatura da granja. Assim avisando se a temperatura estiver fora do ideal para os frangos. o ultilizei pois "O objeto que tem um estado interessante é quase sempre chamado de sujeito, mas já que ele também vai notificar outros objetos sobre as mudanças em seu estado, nós vamos chamá-lo de publicador. Todos os outros objetos que querem saber das mudanças do estado do publicador são chamados de assinantes." assim consigo monitorar tudo com o "publicador" todas essas mudanças
 
 ## Autor
 
