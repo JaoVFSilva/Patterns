@@ -24,4 +24,6 @@ Organizei o projeto com base na granja e criação de abate dos frangos.
 
 ## Autor
 
-* João Vitor Ferreira Silva
+* Nome: João Vitor Ferreira Silva
+* Email: joaovfs@unipam.edu.br
+* Usuario Git: JaoVFSilva
